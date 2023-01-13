@@ -83,3 +83,25 @@ hr{
     text-decoration: none;
     color: #060605;
 }
+
+/* New Series Styles */
+.new-series{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+}
+.series-new .series-banner img{
+    width: 184px;
+    height: 90px;
+}
+.rating-and-timing{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.series-title-new, .new-series-author{
+    font-size: 16px;
+}
+.fa-star, .fa-star-half-stroke {
+    font-size: 12px;
+}
