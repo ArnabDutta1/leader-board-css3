@@ -1,0 +1,85 @@
+/* fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Open+Sans&family=Poppins:wght@500&family=Work+Sans&display=swap');
+
+/* common style*/
+body{
+    font-family: 'Inter', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Work Sans', sans-serif;
+background-color: #000000;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    background-color: rgba(118, 1, 1, 0.896);
+    width: 870px;
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 21px;
+}
+hr{
+    border: 1px solid  #060605;
+    margin-bottom: 25px;
+}
+
+/*Favourite character style*/
+.Favourite-Character{
+    margin-bottom: 25px;
+}
+.section-title{
+    color: #060605;
+    font-size: 25px;
+    margin-top: 3px;
+}
+.characters{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+.character{
+    display: flex;
+    align-items: center;
+}
+.character img{
+    width: 56px;
+    height: 56px;
+}
+.character-name{
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+/* Favourite series styles */
+.series{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 25px;
+}
+.show{
+    display: flex;
+}
+
+.show .thumbnail img{
+    width: 177px;
+    height: 117px;
+    
+}
+.series-info{
+    margin-left: 16px;
+}
+.series-title{
+    font-size: 20px;
+}
+.series-author{
+    color: rgb(176, 199, 199);
+    font-size: 16px;
+}
+.series-author a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #060605;
+}
